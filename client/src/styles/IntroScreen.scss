@@ -1,0 +1,29 @@
+
+.header__title{
+	margin-top: 10%;
+  margin-bottom: 10%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.intro__container:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/introscreenbg.jpg');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-color: #000;
+}
