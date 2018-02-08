@@ -1,15 +1,13 @@
-
-.header__title{
-	margin-top: 10%;
+.header__title {
+  margin-top: 10%;
   margin-bottom: 10%;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
-
-.intro__container:before{
-  content: "";
+.intro__container:before {
+  content: '';
   position: fixed;
   left: 0;
   right: 0;

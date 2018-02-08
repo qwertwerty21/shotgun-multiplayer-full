@@ -1,5 +1,5 @@
-.gamescreen__container:before{
-  content: "";
+.gamescreen__container:before {
+  content: '';
   position: fixed;
   left: 0;
   right: 0;
@@ -16,75 +16,69 @@
   -ms-filter: blur(5px);
   filter: blur(5px);
 }
-.gamescreen__header{
-    margin: 10% 0;
-    display: flex;
-    justify-content: space-between;
+.gamescreen__header {
+  margin: 10% 0;
+  display: flex;
+  justify-content: space-between;
 }
-.gamescreen__roundtitle{
-
-
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #fff;
+.gamescreen__roundtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
-.hud__container{
+.hud__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-	font-size: 20px;
-	color: #fff;
+  font-size: 20px;
+  color: #fff;
 }
 
-.hud__label{
-    text-transform: uppercase;
-    margin: .5rem;
+.hud__label {
+  text-transform: uppercase;
+  margin: 0.5rem;
 }
 
-.gamescreen__video{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
- 
-    
+.gamescreen__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 @media screen and (max-width: 800px) {
-  .gamescreen__video{
-      display: none;
+  .gamescreen__video {
+    display: none;
   }
-  
 }
 
-.playersremain__header{
-    font-size: 20px;
-    color: #fff;
-    text-transform: uppercase;
+.playersremain__header {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-.playermove__deadnotice{
-    color: #fff;
-    font-size: 24px;
+.playermove__deadnotice {
+  color: #fff;
+  font-size: 24px;
 }
 
-.playermove__waitingnotice{
-    color: #fff;
-    font-size: 24px;
+.playermove__waitingnotice {
+  color: #fff;
+  font-size: 24px;
 }

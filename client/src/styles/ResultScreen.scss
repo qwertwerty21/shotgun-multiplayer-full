@@ -1,5 +1,5 @@
-.resultscreen__container:before{
-  content: "";
+.resultscreen__container:before {
+  content: '';
   position: fixed;
   left: 0;
   right: 0;
@@ -18,15 +18,14 @@
   background-color: #000;
 }
 
-.resultscreen__header{
-	color: #fff;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	font-size: 24px;
+.resultscreen__header {
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 24px;
 }
 
-.nextround__waitingnotice{
-    color: #fff;
-    font-size: 24px;
+.nextround__waitingnotice {
+  color: #fff;
+  font-size: 24px;
 }
-

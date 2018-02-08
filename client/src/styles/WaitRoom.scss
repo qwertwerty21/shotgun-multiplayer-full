@@ -1,5 +1,5 @@
-.waitroom__container:before{
-  content: "";
+.waitroom__container:before {
+  content: '';
   position: fixed;
   left: 0;
   right: 0;
@@ -18,24 +18,24 @@
   background-color: #000;
 }
 
-.waitroom__header{
-	color: #fff;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	font-size: 24px;
+.waitroom__header {
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 24px;
 }
 
-.header__room-id{
-	font-size: 28px;
-	font-weight: 700;
+.header__room-id {
+  font-size: 28px;
+  font-weight: 700;
 }
 
-.players-list__header{
-	color: #fff;
-	font-size: 24px;
+.players-list__header {
+  color: #fff;
+  font-size: 24px;
 }
 
-.waitroom__waiting-text{
-	  color: #fff;
-    font-size: 24px;
+.waitroom__waiting-text {
+  color: #fff;
+  font-size: 24px;
 }
